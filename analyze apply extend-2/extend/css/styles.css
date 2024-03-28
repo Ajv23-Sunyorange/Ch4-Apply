@@ -1,0 +1,97 @@
+/*
+Author: Anthony Vecchiarello
+Date: 03/27/24
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, h2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for body and header content */
+body {
+    background-color: #d9d9d9;
+}
+
+header, footer {
+    padding: 2%;
+    text-align: center;
+}
+
+/* Style rules for main content */
+main {
+    padding: 2%;
+    overflow: auto;
+}
+
+main p {
+    font-size: 1.25em;
+    padding: 2%;
+}
+
+main a {
+    color: #0000b3; /*Set Link color */
+    text-decoration: none;
+}
+
+#orange, #purple, #green {
+    display: block;
+    margin-bottom: 2%;
+    text-align: center;
+    width: 33%;
+    float: left;
+}
+
+#questions {
+    clear: left;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000;
+    display: inline-block;
+    padding-top: 5%;
+}
+
+/* Orange */
+.orange-hex {
+  background-color: #ff9900; /* Set the background color using hexademical */
+}
+
+.orange-rgb {
+  background-color: rgb(255,153,0); /* Set the background color using RGB */
+}
+
+.orange-hsl {
+background-color: hsl(30,100%,50%); /* Set the background color using HSL */
+}
+
+/* Purple */
+.purple-hex {
+    background-color: #800080; /* Set the background color using hexadecimal */
+}
+
+.purple-rgb {
+    background-color: rgb(128, 0, 128); /* Set the background color using RGB */
+}
+
+.purple-hsl {
+    background-color: hsl(300, 100%, 25%); /* Set the background color using HSL */
+}
+
+/* Green */
+.green-hex {
+    background-color: #008000; /* Set the background color using hexadecimal */
+}
+
+.green-rgb {
+    background-color: rgb(0, 128, 0); /* Set the background color using RGB */
+}
+
+.green-hsl {
+    background-color: hsl(120, 100%, 25%); /* Set the background color using HSL */
+}

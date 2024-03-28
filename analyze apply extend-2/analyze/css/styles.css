@@ -1,0 +1,68 @@
+/*
+Author: Anthony Vecchiarello
+Date:3/27/24
+File name; Styles.css
+*/
+
+/* CSS Reset */
+#css1, #css2, #css3 {
+    width: 31%;
+    float: left;
+    padding: 0 1%;
+}
+/*This is the footer area */
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    color: #47476b;
+    padding: 1% 0;
+    border-top: 3px solid #47476b;
+    clear:left;
+}
+/* This is the body area */
+body {
+    padding 2%;
+    background-color: #d1d1e0;
+}
+/* This is the main area */
+main {
+    padding: 2%;
+    font-family: Geneva, Arial, sans-serif;
+    overflow: auto;
+}
+main a {
+  font-weight:bold;
+  color:#47476b;
+  text-decoration: none;
+  font-style:italic;
+}
+/* This is the haeder area */
+header h1 {
+    font-size: 3em;
+    font-family: Georgia, Times, serif;
+    padding: 3%;
+    color: #47476b;
+    text-align: center;
+}
+/* This is the nav area */
+nav {
+    background-color: #47476b;
+}
+
+nav ul { margin: 0;}
+nav li {
+    display: inline-block;
+    color: #e3eaf8; padding: 0.5em 2em;
+    text-decoration: none;
+    font-size: 1.5em; font-family: Verdana, Arial, sans-serif; font-weight: bold;
+}
+
+/* This is the main area */
+main p {
+    font-size: 1.25em;
+}
+
+main h3 {
+    padding-top: 2%;
+    font-size: 2em;
+}
